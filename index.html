@@ -58,13 +58,13 @@ function updateGameArea() {
     myGameArea.clear();
     myGamePiece.speedX = 0;
     myGamePiece.speedY = 0;
-    if (myGameArea.key && myGameArea.key == 38) {myGamePiece.speedY = -1; }
-    if (myGameArea.key && myGameArea.key == 40) {myGamePiece.speedY = 1; }
+    if (myGameArea.key && myGameArea.key == 38) {myGamePiece.speedY = -10; }
+    if (myGameArea.key && myGameArea.key == 40) {myGamePiece.speedY = 10; }
     myGamePiece.newPos();    
     myGamePiece.update();
 }
 </script>
 
-<p>If you click a button the red square will start moving. Click the same button many times, and it will move faster and faster.</p>
+<p>Game building</p>
 </body>
 </html>
